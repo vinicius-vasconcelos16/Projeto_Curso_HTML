@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@font-face {
+ font-family: idroid;
+ src: url(fontes/idroid.otf) format(opentype);
+}
+*{
+ margin: 0%;
+ line-height: 25px;
+}
+
+body{
+ background-color: rgb(173, 235, 216);
+ margin: 0%;
+ padding: 0%;
+}
+
+h1, h2, h3, p:hover{
+ cursor: default;
+}
+
+header{
+ background-image: linear-gradient(180deg, rgba(47, 155, 56, 0.74), rgb(4, 61, 4));
+ padding: 10px 10px 5px 10px;
+ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.404);
+}
+
+header > h1{
+ margin-bottom: 10px;
+ text-align: center;
+ font-weight: 600;
+ color: rgba(255, 255, 255, 0.92);
+ font-size: 2em;
+ font-family: 'Bebas Neue', cursive;
+ padding-right: 1px;
+ text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.404);
+}
+header > p{
+ padding-bottom: 10px;
+ margin-bottom: 10px;
+ letter-spacing: -0.5px;
+ color: rgba(255, 255, 255, 0.89);
+ font-size: 1em;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: lighter;
+ text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.404);
+}
+
+nav > a{
+ transition: background .5s;
+ padding: 10px;
+ color: rgba(255, 255, 255, 0.89);
+ font-weight: bolder;
+ font-size: 14px;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-right: 10px;
+ text-decoration: none;
+ text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.404);
+}
+
+nav > a:hover{
+ background-color: rgba(32, 145, 32, 0.63);
+}
+
+main{
+ box-align: center;
+ background-color: rgba(255, 255, 255, 0.795);
+ font-family: idroid;
+ min-width: 320px;
+ max-width: 800px;
+ margin-left: 20%;
+ margin-right: 20%;
+ padding: 10px 20px;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+
+.irina > source, img{
+ width: 100%;
+}
+
+main > h2{
+ color:rgb(4, 61, 4);
+}
+
+main > p{
+ font-family: Arial, Helvetica, sans-serif;
+ text-indent: 35px;
+ font-weight: 500;
+ font-size: 1.15em;
+ text-align: justify;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+
+p > strong{
+ color: rgb(4, 61, 4);
+}
+
+main > h3{
+ color: rgb(4, 61, 4);
+ padding-left: 10px;
+ background-image: linear-gradient(90deg, rgba(32, 145, 32, 0.295), white);
+}
+
+p > a{
+ padding-bottom: 10px;
+ padding-top: 10px;
+ color: rgb(4, 61, 4);
+ font-weight: 600;
+ text-decoration: none;
+}
+
+main > img{
+ width: 100%;
+ margin: auto;
+}
+
+.video{
+ background-color: rgb(4, 61, 4);
+ margin: 0px -20px 30px -20px;
+ padding: 20px;
+ padding-bottom: 58%;
+ position: relative;
+}
+
+.video > iframe{
+ position: absolute;
+ top: 5%;
+ left: 5%;
+ width: 90%;
+ height: 90%;
+}
+
+.lista{
+ border-radius: 10px;
+ background-color: rgba(173, 235, 178, 0.644);
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: 20px;
+ margin-right: 10px;
+ margin-left: 15px;
+ padding-bottom: 25px;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+
+.lista-cabecalho{
+ background-color: rgba(47, 155, 56, 0.74);
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ padding: 10px;
+ color: white;
+ margin-bottom: 10px;
+}
+
+.lista > p,ul, ul > p{
+ margin-left: 10px;
+ margin-right: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-indent: 35px;
+ font-size: 1em;
+ text-align: justify;
+}
+
+.lista > ul{
+ list-style-type: none;
+ margin: 10px 0px 0px 0px;
+ padding: 0px;
+ columns: 2;
+}
+
+div > li::before{
+ content: "✔ ";
+}
+
+footer{
+ margin-top: 20px;
+ padding: 4px;
+ background-color: rgb(4, 61, 4);
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p{
+ color: rgba(255, 255, 255, 0.795);
+}
+
+p{
+ text-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.404);
+}
